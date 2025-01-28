@@ -1,0 +1,30 @@
+[project]
+name = "llm-twitter"
+version = "0.1"
+description = "LLM plugin for answering questions about Twitter profiles"
+readme = "README.md"
+authors = [{name = "Your Name"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "llm",
+    "tweepy",
+    "click",
+]
+
+[project.urls]
+Homepage = "https://github.com/irthomasthomas/llm-twitter"
+
+[project.entry-points.llm]
+twitter = "llm_twitter"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.pytest.ini_options]
+filterwarnings = ["error"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
