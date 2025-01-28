@@ -4,7 +4,9 @@
 [![Changelog](https://img.shields.io/github/v/release/yourusername/llm-twitter?include_prereleases&label=changelog)](https://github.com/yourusername/llm-twitter/releases)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/yourusername/llm-twitter/blob/main/LICENSE)
 
-LLM plugin for answering questions about Twitter profiles
+LLM plugin for answering questions about Twitter profiles. 
+
+### Inspired by a [BM](https://github.com/bm-github) project.
 
 ## Installation
 
