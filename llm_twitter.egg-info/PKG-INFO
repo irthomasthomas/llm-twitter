@@ -4,9 +4,7 @@ Version: 0.1
 Summary: LLM plugin for answering questions about Twitter profiles
 Author: Your Name
 License: Apache-2.0
-Project-URL: Homepage, https://github.com/yourusername/llm-twitter
-Project-URL: Changelog, https://github.com/yourusername/llm-twitter/releases
-Project-URL: Issues, https://github.com/yourusername/llm-twitter/issues
+Project-URL: Homepage, https://github.com/irthomasthomas/llm-twitter
 Classifier: License :: OSI Approved :: Apache Software License
 Description-Content-Type: text/markdown
 Requires-Dist: llm
